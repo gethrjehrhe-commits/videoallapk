@@ -1,7 +1,5 @@
 {
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/api/index.php" }
-  ],
+  "cleanUrls": true,
   "headers": [
     {
       "source": "/(.*)\\.apk",
